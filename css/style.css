@@ -1,0 +1,27 @@
+body{
+    overflow: hidden;
+}
+
+#canvas{
+    margin: calc(50vh - 200px) calc(50vw - 375px);
+}
+
+.gameMessage{
+    text-align: center;
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    width: 100vw;
+    top: 25vh;
+}
+
+#highScore{
+    display: none;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    padding: 2em;
+}
